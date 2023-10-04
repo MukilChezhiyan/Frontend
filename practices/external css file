@@ -1,0 +1,19 @@
+header{
+color: brown;
+font-size: 1em;
+text-decoration: underline;
+text-align:center;
+}
+section article{
+font-weight:200;
+font-size: 1.1em;
+color:blue;
+}
+body{
+background-color: pink;
+}
+footer{
+color:green;
+font-size: 1em;
+text-align:center;
+}
