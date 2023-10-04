@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title>Opacity</title>
+<head>
+<style>
+img{
+opacity: 0.5;
+}
+body{
+background-color:lavender;
+}
+</style>
+</head>
+<body>
+<h1>Opacity</h1>
+<img src="C:\Users\mukil\OneDrive\Pictures\Camera Roll\flowers.jpg">
+<br>
+<p>This image can be shown in 50%</p>
+</body>
+</html>
