@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello!</title>
+</head>
+<body style=background-color:pink;>
+<h1 style=color:blue;text-align:center;>INTERNET</h1>
+<!--
+I'm going to write a paragraph
+-->
+<h2 style=color:red;>Hi!</h2>
+<p>Internet is the foremost important tool and the prominent resource that is being used by almost every person across the globe. It connects millions of computers, webpages, websites, and servers. Using the internet we can send emails, photos, videos, messages to our loved ones. Or in other words, the internet is a widespread interconnected network of computers and electronics devices(that support internet). It creates a communication medium to share and get information online. If your device is connected to the Internet then only you will be able to access all the applications, websites, social media apps, and many more services. Internet nowadays is considered as the fastest medium for sending and receiving information.The origins of the Internet date back to the development of packet switching and research commissioned by the United States Department of Defense in the late 1960s to enable time-sharing of computers.[2] The primary precursor network, the ARPANET, initially served as a backbone for the interconnection of regional academic and military networks in the 1970s to enable resource sharing. The funding of the National Science Foundation Network as a new backbone in the 1980s, as well as private funding for other commercial extensions, led to worldwide participation in the development of new networking technologies, and the merger of many networks.[3] The linking of commercial networks and enterprises by the early 1990s marked the beginning of the transition to the modern Internet,[4] and generated a sustained exponential growth as generations of institutional, personal, and mobile computers were connected to the network. Although the Internet was widely used by academia in the 1980s, commercialization incorporated its services and technologies into virtually every aspect of modern life.</p>
+<p style=font-family:verdana;text-align:center;color:green;>Thank you..</p>
+</body>
+</html>
+
+
+
