@@ -1,0 +1,25 @@
+<html>
+<body>
+<script>
+var names=["Ashifa","Kavi","veerenthiran",3,false];
+document.write(names[names.length-1]+"<br>");
+names.push("Gautham");
+document.write(names);
+names.unshift("Chezhiyan");
+document.write(names+"<br>");
+names.pop();
+document.write(names+"<br>");
+names.shift()
+document.write(names+"<br>");
+names.splice(1,1);
+document.write(names+"<br>");
+names.splice(1,1,"veerenthiran","subasri");
+document.write(names);
+document.write(names.slice(4,5));
+var fav=["Parotta","Biriyani","Mini Idly","Dosa"];
+var additional=names.concat(fav);
+document.write(additional+"<br>");
+document.write(additional.length+"<br>");
+</script>
+</body>
+</html>
