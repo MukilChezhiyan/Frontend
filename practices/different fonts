@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>Default font</title>
+<head>
+<style>
+p{
+font-family:calabri;
+font-size:300%;
+}
+p1{
+font-family:courier;
+}
+p2{
+font-family:aerial;
+font-family:Monotype corsiva;
+}
+body{
+background-color:lightgrey;
+</style>
+</head>
+<body>
+<p>Difference</p>
+<p1>Is there any difference in font?</p1>
+<br>
+<br>
+<p2>Yes!Default font is applied at h1.</p2>
+</body>
+</html>
