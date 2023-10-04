@@ -1,0 +1,49 @@
+<html>
+<title>JS Reg exp</title>
+<body>
+<h1 style=text-align:center>JS Regular Expressions</h1>
+<p>This performs the global search</p>
+<script>
+let txt="Inside the computer there are some keys inside the keys there are switches.Switches are connected as a circuit";
+let res=txt.match(/are/g);
+document.write(res)
+</script>
+<p>This performs multi-line search</p>
+<script>
+let text=`Is 
+this is
+you?`
+let pattern=/is/m;
+let result=text.match(pattern);
+document.write(result)
+</script>
+<p>This is i modifier</p>
+<script>
+let t="visit HOME later";
+let ptn=/home/i;
+let r=t.match(ptn);
+document.write(r)
+</script>
+<p>This executes the alternatives given</p>
+<script>
+let te="rose,red,pi,or,pi,blue";
+let pa=/(pi|or)/g;
+let re=te.match(pa);
+document.write(re)
+</script>
+<p>NOT</p>
+<script>
+let tex="123456789";
+let p=/[^3-4]/g;
+let resu=tex.match(p);
+document.write(resu)
+</script>
+<p>This will execute the given character at a string</p>
+<script>
+let tt="hellllllooo llooo loo";
+let pt=/l+/g;
+let resul=tt.match(pt);
+document.write(resul)
+</script>
+</body>
+</html> 
