@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title>Form</title>
+<style>
+body{
+    background-color:#CFCFCF;
+    margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+main{
+flex:1;
+padding:20px;
+}
+footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+}
+header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+h1 {
+      margin: 0;
+      
+    }
+</style>
+<header>
+<h1 style=text-align:center;>REGISTER FORM</h1>
+</header>
+<body>
+<main>
+<form action="#" method="GET" style=text-align:center;>
+<label for="fn">First Name:</label>
+<input id="fn" type="text" name="fn">
+<br>
+<br>
+<label for="ln">Last Name:</label>
+<input id="ln" type="text" name"ln">
+<br>
+<br>
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dateofbirth">
+<br>
+<br>
+<label for="gen">Gender:</label>
+<label for="gen">Male</label>
+<input id="gen" type="radio" name="gender" value="male">
+<label for="gen">Female</label>
+<input id="gen" type="radio" name="gender" value="female">
+<label for=gen">Others</label>
+<input id="gen" type="radio" name="gender" value="others">
+<br>
+<br>
+<label for="blood groups">Blood group:</label>
+<select name="blood groups" id="blood groups">
+<option value="o">O+ve</option>
+<option value="a">A+ve</option>
+<option value="b">B+ve</option>
+<option value="ab">AB+ve</option>
+<option value="o-">O-ve</option>
+<option value="a-">A-ve</option>
+<option value="b-">B-ve</option>
+<option value="ab-">AB-ve</option>
+<br>
+<br>
+<label for="fl">Upload blood report:</label>
+<input type="file" id="fl" name="uploadfile">
+<br>
+<br>
+<input type="submit">
+<input type="reset">
+</main>
+<footer>
+    &copy; 2023 Organ Donation System. All rights reserved.
+  </footer>
+</body>
+</form>
+</html>
