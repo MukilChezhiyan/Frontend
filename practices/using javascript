@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Using Javascript</title>
+<h1>Javascript</h1>
+</head>
+<body style=background-color:cyan;>
+<script>
+var mukil="Hi! Welcome to my webpage using Javascript";
+document.write(mukil);
+</script>
+<br>
+<h2>Using External Javascript File</h2>
+<p>While clicking the button,alert message will execute</p>
+<button type="button"id="btn">OK</button>
+<script src="external.js"></script>
+</body>
+</html>
