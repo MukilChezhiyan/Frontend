@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>Alpha colors and box shadow</title>
+<head>
+<style>
+p{
+background: rgba(53,73,25,0.3)
+}
+p1{
+background: hsla(300,45%,35%,0.5)
+}
+h1{
+background: rgb(100,200,130)
+}
+h2{
+background: hsl(300,76%,72%)
+}
+div{
+width: 200px;
+height: 150px;
+padding: 10px;
+background-color: pink;
+box-shadow: 15px 15px 10px grey;
+}
+</style>
+</head>
+<body>
+<h1>Transparent</h1>
+<p>In the field of optics, transparency (also called pellucidity or diaphaneity) is the physical property of allowing light to pass through the material without appreciable scattering of light.</p>
+<h2>Translucent</h2>
+<p1>Translucency allows light to pass through, but does not necessarily follow Snell's law; the photons can be scattered at either of the two interfaces, or internally, where there is a change in index of refraction.</p1>
+<br>
+<br>
+<div>The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</div>
+</body>
+</html>
