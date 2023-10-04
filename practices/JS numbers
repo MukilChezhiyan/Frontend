@@ -1,0 +1,39 @@
+<html>
+<title>JS Numbers</title>
+<body>
+<h1 style=text-align:center>JS Number</h1>
+<p>The max safe int is</p>
+<script>
+let x=Number.MAX_SAFE_INTEGER;
+document.write(x)
+</script>
+<p>This gives the negative infinity</p>
+<script>
+let y=Number.NEGATIVE_INFINITY;
+document.write(y)
+</script>
+<p>This gives postive infinity</p>
+<script>
+let z=Number.POSITIVE_INFINITY;
+document.write(z)
+</script>
+<p>This gives the exponential value</p>
+<script>
+let no=4.8;
+let n=no.toExponential();
+document.write(n)
+</script>
+<p>This converts num to string</p>
+<script>
+let num=23;
+let txt=num.toString();
+document.write(txt)
+</script>
+<p>This gives the precised num</p>
+<script>
+let a=12.54832;
+let b=a.toPrecision(4);
+document.write(b)
+</script>
+</body>
+</html>
