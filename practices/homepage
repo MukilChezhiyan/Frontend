@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organ Donation System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('C:\Users\mukil\OneDrive\Documents\Software                     testing course(Edubridge)\th.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    nav ul li a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Organ Donation System</h1>
+  </header>
+<nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">Search</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Welcome to the Organ Donation System!!!</h2>
+    <p style=color:blue;>The death of a person waiting for a transplant could be avoided if only,more people were aware of organ donation.There are several types of organ,tissue and blood donation.<strong>“Be a blood and organ donor. All it costs is a little love.”</strong>These are divided into a living donation and deceased donation.Organ donation offers many benefits to society.<b>“Your organ could be someone’s missing piece.”</b> However,even though organ donation is encouraged many people still have misconceptions and doubts about the procedure.<strong>“Let someone see through your eyes what you have seen.”</strong>
+Reading this will motivate you to register ahead of time so more lives can be saved.<b>"Donate an organ… Save a life.”</b></p>
+  </main>
+
+  <footer>
+    &copy; 2023 Organ Donation System. All rights reserved.
+  </footer>
+ 
+
+</body>
+</html>
