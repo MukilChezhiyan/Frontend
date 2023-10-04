@@ -1,0 +1,48 @@
+<html>
+<title>String objects</title>
+<body>
+<h1 style=text-align:center>JS String Objects</h1>
+<p>It returns the indexed character from string</p>
+<script>
+let txt="Mukil";
+let char=txt.at(2);
+document.write(char)
+</script>
+<p>It gives the unicode of the character</p>
+<script>
+let text="welcome";
+let chara=text.charCodeAt(2);
+document.write(chara)
+</script>
+<p>Constructor</p>
+<script>
+let msg="hi";
+let t=msg.constructor;
+document.write(t)
+</script>
+<p>Returns the boolean val of condition</p>
+<script>
+let message="Hi I'm Mukil";
+let result=message.endsWith("Hi");
+document.write(result)
+</script>
+<p>It returns the included string as boolean value</p>
+<script>
+let mssg="Hello there";
+let res=mssg.includes("there");
+document.write(res)
+</script>
+<p>Splits the character</p>
+<script>
+let m="How are You?";
+let r=m.split("");
+document.write(r)
+</script>
+<p>Converts into uppercase</p>
+<script>
+let x="namaskaram"
+let y=x.toUpperCase();
+document.write(y)
+</script>
+</body>
+</html> 
