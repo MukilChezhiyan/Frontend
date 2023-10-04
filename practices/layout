@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>Layout</title>
+<h1>HTML Layout</h1>
+<style>
+{
+box-sizing: border-box;
+}
+header{
+background-color: grey;
+padding: 10px;
+text-align: center;
+font-size: 25px;
+color: white;
+}
+nav{
+float: right;
+width: 30%;
+height: 300px;
+background: pink;
+padding: 20px;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+article{
+float: left;
+padding: 30px;
+width: 30%;
+background: light green;
+height: 300px;
+}
+section::after{
+content: "";
+display: table;
+clear: both;
+}
+footer{
+background-color: lavender;
+padding: 5px;
+text-align: left;
+color: orange;
+}
+</style>
+<body>
+<header>
+<h2>Courses</h2>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href="#">Artificial Intelligence</li>
+<li><a href="#">Data Structures</li>
+<li><a href="#">Python programming</li>
+</ul>
+</nav>
+<article>
+<h1>Artificial Intelligence</h1>
+<p>Artificial Intelligence works by learning the patterns in a dataset. It combines and accumulates a large set of data for a specific task through an intelligent and iterative collection process.</p>
+</article>
+</section>
+<footer>
+<p>Contact us: mukil12@gmail.com</p>
+</footer>
+</body>
+</html>
+
