@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<h1>Students Results</h1>
+<style>
+table, th,td{
+font-family: sans-serif;
+border: 3px solid black;
+  width: 50%;
+  text-align: center;
+  padding: 5px solid black;
+border-collapse: separate;
+border: 2px dotted black;
+}
+tr:nth-child(1) {
+  background-color:pink;
+}
+</style>
+<body>
+<table>
+<colgroup>
+<col span="2" style="background-color:lavender">
+<col style="background-color: green">
+<tr>
+<th>Reg.no</th><th>Name</th><th>Result</th>
+</tr>
+<tr>
+<td>294758285</td><td>Mukil</td><td>Pass</td>
+</tr>
+<tr>
+<td>294758286</td><td>Nithya</td><td>Pass</td>
+</tr>
+<tr>
+<td>294758287</td><td>Suba</td><td>Pass</td>
+</tr>
+</table>
+<h3>Email Link</h3>
+<a href="mailto:mukilsneha12@gmail.com">Ping me</a>
+</body>
+</html>
