@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internal Styling</title>
+<style>
+h1{
+color:red;
+text-align:center;
+}
+em.top{
+color:brown;
+}
+strong#bottom{
+color:black;
+font-weight:100;
+font-size:1.1em;
+}
+body{
+background-color:lavender;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Mobile computing</h1>
+</header>
+<footer>
+<em class="top">Mobile computing refers to the set of IT technologies, products, services and operational strategies and procedures that enable end users to access computation, information and related resources and capabilities while mobile. Mobile most commonly refers to access in motion, where the user is not restricted to a given geographic location.Mobile may also refer to access in a fixed location via equipment that users can relocate as required but is stationary while in operation. This mode of operation is often called nomadic computing.Today, mobile computing technology is everywhere. It has applications in business and consumer markets, industrial and entertainment industries, as well as many specialized vertical markets.</em>
+<br>
+<br>
+<strong id="bottom">For more information check many websites</strong>
+</footer>
+</body>
+</html> 
