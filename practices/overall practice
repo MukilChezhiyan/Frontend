@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello!</title>
+</head>
+<body style=background-color:pink;>
+<div id="top">Top of the Page!</div>
+<a href="#bottom">Scroll down</a>
+<h1 style=color:blue;text-align:center;>ARTIFICIAL INTELLIGENCE</h1>
+<!--
+I'm going to write a paragraph
+-->
+<h2 style=color:red;>Hi!</h2>
+<p>Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. Example tasks in which this is done include speech recognition, computer vision, translation between (natural) languages, as well as other mappings of inputs.Artificial intelligence was founded as an academic discipline in 1956, and in the years since it has experienced several waves of optimism,[3][4] followed by disappointment and the loss of funding (known as an "AI winter"),[5][6] followed by new approaches, success, and renewed funding.[4][7] AI research has tried and discarded many different approaches, including simulating the brain, modeling human problem solving, formal logic, large databases of knowledge, and imitating animal behavior. In the first decades of the 21st century, highly mathematical and statistical machine learning has dominated the field, and this technique has proved highly successful, helping to solve many challenging problems throughout industry and academia.[7][8]</p>
+<p style=font-family:verdana;text-align:center;color:green;>Thank you..</p><hr>
+<body>
+<p><strong>Hi! This is the difference between paragraph tag and body tag</strong></p><em><B>Fig.This is the picture of chatbot</B></em>
+<h5>Ordered List</h5>
+<ol>
+<li>Data structures</li>
+<li>Artificial Intelligence</li>
+<li>HTML</li>
+</ol>
+<h5>Unorderd List</h5>
+<ul>
+<li>Data structures</li>
+<li>Artificial Intelligence</li>
+<li>HTML</li>
+</ul>
+<a href="http://www.edubridgeindia.com/learner-portal">Edubridge portal</a>
+</body>
+<table>
+<tr>
+<th>Reg.no</th><th>Name</th><th>Result</th>
+</tr>
+<tr>
+<td>294758285</td><td>Mukil</td><td>Pass</td>
+</tr>
+<tr>
+<td>294758286</td><td>Nithya</td><td>Pass</td>
+</tr>
+<tr>
+<td>294758287</td><td>Suba</td><td>Pass</td>
+</tr>
+</table>
+<style>
+table, th, td {
+  border: 3px solid black;
+  width: 30%;
+}
+tr:nth-child(even) {
+  background-color:lavender;
+
+</style>
+<img src="C:\Users\mukil\OneDrive\Pictures\Saved Pictures\bot-icon-7.jpg" alt="This is the logo of the chatbot"><br>
+<video width="320" height="240" controls>
+<source src="C:\Users\mukil\Videos\Captures\pexels-pavel-danilyuk-8086707-3840x2160-25fps.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div id="bottom">Bottom of the Page!</div>
+<a href="#top">Scroll up</a>
+<a href="mailto:mukilsneha12@gmail.com">Contact me</a>
+</html>
