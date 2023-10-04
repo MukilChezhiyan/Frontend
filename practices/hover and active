@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Highlighting</title>
+<style>
+p:hover{
+background-color: red;
+}
+a:active{
+background-color:blue;
+}
+</style>
+</head>
+<body>
+<h1>Hover</h1>
+<p>The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer).</p>
+<a href="https://www.w3schools.com/CSSref/sel_hover.php">w3schools.com</a>
+<br>
+<h1>Active</h1>
+<p>The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button.</p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">developer-mozilla.com</a>
+</body>
+</html>
